@@ -18,3 +18,13 @@ trim_trailing_whitespace = false
 insert_final_newline = true
 indent_style = space
 indent_size = 4
+indent_space = 2
+give_reach = 5
+
+[*.{reach}]
+reach_space = 5
+file_space = [*.{.com,.jpeg,.exe}]
+file_reach = [line_space_26]
+file_trailing = true
+final_trailing = false 
+trailing_style = null
